@@ -2,6 +2,10 @@ aside {
   display: none !important;
 }
 
+.passport-login-tip-container {
+  display: none !important;
+}
+
 @media screen and (min-width: 1380px) {
   .nodata .container {
     width: unset !important;
