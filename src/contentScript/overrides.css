@@ -1,0 +1,25 @@
+aside {
+  display: none !important;
+}
+
+@media screen and (min-width: 1380px) {
+  .nodata .container {
+    width: unset !important;
+  }
+
+  .nodata .container.container-concision {
+    width: 1010px;
+  }
+
+  .nodata .container main {
+    width: 1010px;
+  }
+
+  .nodata .container main #pcCommentBox pre > ol.hljs-ln {
+    width: 490px !important;
+  }
+
+  .nodata .container main .articleConDownSource {
+    width: 560px;
+  }
+}
