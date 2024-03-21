@@ -4,10 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="/icon/logo.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chrome Extension + Vanilla + TS + Vite</title>
+    <title>Clean CSDN Blog</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div id="siderBtn" class="item">
+        <div class="status"><div id="siderStatus">⚫️</div></div>
+        <div class="content">隐藏侧边栏</div>
+      </div>
+      <div id="loginBtn" class="item">
+        <div class="status"><div id="loginStatus">⚫️</div></div>
+        <div class="content">隐藏登录提示窗口</div>
+      </div>
+    </div>
     <script type="module" src="/src/popup/index.ts"></script>
   </body>
 </html>
