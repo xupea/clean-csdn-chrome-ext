@@ -9,6 +9,14 @@ body {
   font-size: 14px;
 }
 
+#siderStatus {
+  display: flex;
+}
+
+#loginStatus {
+  display: flex;
+}
+
 .item {
   display: flex;
   flex-direction: row;
