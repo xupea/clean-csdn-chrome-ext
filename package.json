@@ -1,7 +1,7 @@
 {
   "name": "clean-csdn",
   "displayName": "Clean CSDN Blog",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Peter Xu",
   "description": "Just make csdn blog as clean as it should be",
   "type": "module",
