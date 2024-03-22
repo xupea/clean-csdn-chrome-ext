@@ -50,9 +50,12 @@ chrome.storage.sync.get(['hideLogin'], function (result) {
   if (hideLogin) {
     injectCSS(
       `.passport-login-tip-container {
-            display: none !important;
-          }
-          `,
+          display: none !important;
+        }
+        .passport-login-container {
+          display: none !important;
+        }
+      `,
     )
   }
 })
