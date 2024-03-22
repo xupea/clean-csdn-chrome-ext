@@ -15,15 +15,31 @@ chrome.storage.sync.get(['hideSider'], function (result) {
   if (hideSider) {
     injectCSS(
       `aside {
-            display: none !important;
-          }
+        display: none !important;
+      }
 
-          @media screen and (min-width: 1380px) {
-            .nodata .container {
-              width: unset !important;
-            }
-          }
-          `,
+      @media screen and (min-width: 1380px) {
+        .nodata .container {
+          width: unset !important;
+        }
+      }
+
+      @media (min-width: 1320px) and (max-width:1380px) {
+        .nodata .container {
+            width: unset !important;
+        }
+      }
+
+      @media screen and (max-width: 1320px) {
+        .nodata .container {
+          width: unset !important;
+        }
+      }
+
+      .left-toolbox {
+        left: unset !important;
+      }
+      `,
     )
   }
 })
